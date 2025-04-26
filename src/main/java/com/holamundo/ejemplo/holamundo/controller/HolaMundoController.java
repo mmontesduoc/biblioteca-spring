@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HolaMundoController {
     @GetMapping("/hola")
     public String holaMundo () {
-        return "!HOLA MUNDO";
+        return "!HOLA MUNDO cruel";
     }
     
                 
